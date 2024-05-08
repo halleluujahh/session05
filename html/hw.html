@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        color: rgba(255, 255, 255, 0.881);
+        height: 100%;
+      }
+      .item {
+        background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/hero-demo1.jpg);
+        height: 300px; 
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .content-item {
+        position: relative;
+        left: 2%;
+        top: 5%;
+        width: 250px;
+      }
+      .item2-1 {
+        background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/hero-demo5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        position: relative;
+      }
+      .content-item2-1 {
+        position: absolute;
+        bottom: 0;
+        left: 5%;
+        margin-bottom: 10px;
+        width: 250px;
+      }
+      .item2-2 {
+        background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/hero-demo4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200px;
+      }
+      .content-item2-2 {
+        position: relative;
+        top: 50%;
+        left: 5%;
+      }
+      .item3-1 {
+        background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/hero-demo3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200px;
+      }
+      .content-item3-1 {
+        position: relative;
+        top: 5%;
+        left: 5%;
+        width: 250px;
+      }
+      .item3-2 {
+        background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/hero-demo2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200px;
+      }
+      .content-item3-2 {
+        position: relative;
+        top: 5%;
+        left: 5%;
+        width: 250px;
+      }
+      .item3-3 {
+        background-color: rgb(141, 22, 22);
+        height: 300px;
+      }
+      .content-item3-3 {
+        position: relative;
+        top: 20%;
+        left: 5%;
+        width: 250px;
+      }
+      button {
+        position: relative;
+        top: 70%;
+        left: 10%;
+        padding: 10px;
+        width: 80%;
+      }
+      .item-flex {
+        display: flex;
+      }
+      .item2 {
+        flex: 1;
+      }
+      .item3 {
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <div class="item">
+        <div class="content-item">
+          <h1>We like balloons</h1>
+          <p>You can find all kinds of balloons related things here.</p>
+        </div>
+      </div>
+      <div class="item-flex">
+        <div class="item2">
+          <div class="item2-1">
+            <div class="content-item2-1">
+              <h1>Special Shapes</h1>
+              <p>Why are some of them so scary looking?</p>
+            </div>
+          </div>
+          <div class="item2-2">
+            <div class="content-item2-2">
+              <h1>10 things you discover when taking a balloon ride.</h1>
+              <p>Number 8 will AMAZE you.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item3">
+          <div class="item3-1">
+            <div class="content-item3-1">
+              <h1>Angry people at balloon fiestas</h1>
+              <p>Hot air balloons. A bit weather sensitive.</p>
+            </div>
+          </div>
+          <div class="item3-2">
+            <div class="content-item3-2">
+              <h1>Balloon photos</h1>
+              <p>I have quite a few.</p>
+            </div>
+          </div>
+          <div class="item3-3">
+            <div class="content-item3-3">
+              <p>Sign up for more information about balloons.</p>
+            </div>
+            <button>Sign me up!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
