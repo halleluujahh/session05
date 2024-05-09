@@ -34,9 +34,11 @@ element --> class --> id --> !important
 - cross-axis ăn theo thuộc tính align-item.
 - justify-content:
 + center: ra giữa.
-+ space-around: khoảng cách từ mép đến element đầu tiên sẽ cách nhau bằng khoảng cách từ element đầu đến element 2.
++ space-around: khoảng cách từ mép đến element đầu tiên sẽ cách nhau bằng 1/2 khoảng cách từ element đầu đến element 2.
 + space-evenly: khoảng cách từ các element cách đều nhau.
 + space-beetween: hai element đầu và cuối nằm hai mép và khoảng cách các phần tử cách đều nhau.
 - order: sắp xếp vị trí của layout của element.
 - flex: nếu là 1 số nguyên dương thì sẽ chiếm hết các element còn lại.
 - flex-wrap: wrap.
+
+# Mind map: https://whimsical.com/fl-DkAx54LY2ouoYDJmZtsVbG
